@@ -1,0 +1,19 @@
+# Disk DescriptorFile
+version=1
+CID=7ead6e16
+parentCID=ffffffff
+createType="vmfs"
+
+# Extent description
+RW 102400 VMFS "synoboot.img" 0
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.deletable = "true"
+ddb.encoding = "UTF-8"
+ddb.longContentID = "4f4ffd3eeab43ba779777ae17ead6e16"
+ddb.thinProvisioned = "1"
+ddb.uuid = "60 00 C2 9a ee da ca 33-df 5e 04 3f 80 55 f9 62"
+ddb.virtualHWVersion = "14"
